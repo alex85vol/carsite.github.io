@@ -1,0 +1,127 @@
+body {
+  margin:auto;
+  padding:auto;
+  background-image:url("http://www.carid.com/images/wheels/audi-wheels.jpg");
+  background-repeat:repeat;
+  background-size: 100%;
+  
+}
+
+
+
+header {
+  color: white;
+  font-weight:bold;
+  text-transform:uppercase;
+	text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+  font-size:50px;
+  text-align: center;
+  
+  size: 100;
+}
+
+
+img {
+	width:380px;
+	height:210px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+img:hover {
+    box-shadow: 0 4px 8px 0 rgba(1, 6, 4, 1), 0 6px 28px 0 rgba(26, 4, 8, 26);
+}
+
+table {
+  padding: auto;
+  margin:auto;
+  border-collapse:collapse;
+	border: none;
+}
+
+
+
+th {
+  color: white;
+  box-shadow: 5px 4px 8px 0 rgba(4, 10, 77, 26), 4px 6px 20px 10px rgba(140, 130, 14, 70);
+  text-transform:uppercase;
+  text-shadow: 2px 3px 1px grey,0 0 25px purple, 0 0 5px lightgrey;
+  font-weight:bold;
+}
+h1{
+  text-align: center;
+  text-shadow: 1px 1px 2px black, 0 0 25px white, 0 0 5px #003366 ;
+  color: #660066;
+  text-transform: uppercase;
+}
+
+h3 {
+  margin-left: 125px;
+  text-shadow: 1px 1px 2px black, 0 0 25px white, 0 0 5px #003366 ;
+  color: #69de9f;
+  text-transform: uppercase;
+}
+
+p {
+  margin: auto;
+  padding: 10px;
+  font-size:18px;
+  font-weight:bold;
+  color: black;
+  text-shadow: 1px 1px 2px white, 0 0 25px white, 0 0 5px grey;
+}
+
+.characteristics {
+  font-weight:bold;
+  width:400px;
+  border: px solid white;
+  border-radius: 5px;
+  background:linear-gradient(#6666ff, #99ffbb);;
+  background-blend-mode: multiple;
+  box-shadow:5px 5px 2px black, 3px 4px 25px white, 5px 10px 25px purple;
+ 
+}
+.characteristics :nth-child(6) {
+  color:purple;
+  font-weight:bold
+}
+
+.characteristics :nth-child(8) {
+  color:red;
+  font-weight:bold
+}
+.speed {
+  border:1px dashed purple;
+  border-radius: 5px;
+}
+
+.consumption {
+  border:1px dashed red;
+  border-radius: 5px;
+}
+.search {
+  margin: auto;
+  color:white;
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+  background-color:purple;
+  width:100%;
+}
+.searchf {
+  padding-left:100px;
+}
+
+.article {
+    border: 1px solid grey;
+    border-radius: 5px;
+    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding:2px 5px 2px 5px;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    background-size: 100%;
+    background-repeat:repeat;
+    background-image: linear-gradient(to top, black 10%, white 100%), url('http://media.caspianmedia.com/image/8aac2292e353e7c0833d4f48ee26f4a9.jpg');
+    background-blend-mode: overlay;
+}
+
+
+
